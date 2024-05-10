@@ -5,10 +5,10 @@ import homeSec3 from "../../assets/home-sec1-3.png";
 const HomeSec1 = () => {
   return (
     <div className="">
-      <div className="h-[80vh] flex items-center justify-center">
-        <div className="text-center text-black">
+      <div className="h-[67vh] flex items-center justify-center">
+        <div className="text-center text-white">
           <div className="flex justify-end">
-            <img className="flex justify-end h-8 max-[850px]:h-6" src={homeSec1} alt="" />
+            <img className="flex justify-end h-8 max-[850px]:h-6 max-[520px]:h-4" src={homeSec1} alt="" />
           </div>
 
           <p className="max-[520px]:text-sm">FASCINATING LIFE OF </p>
@@ -18,18 +18,18 @@ const HomeSec1 = () => {
             company. We'll <br /> break it down into three key stops—each one a
             crucial chapter in the journey.
           </p>
-          <button className="p-3 px-7 bg-[#00FFB2] text-[#003C3C] rounded-full mt-5 max-[850px]:p-2 max-[850px]:px-4 max-[520px]:px-2 max-[520px]:text-sm max-[520px]:rounded-xl max-[520px]:mt-2">
+          <button className="p-3 px-7 bg-[#00FFB2] text-[#003C3C] rounded-full mt-5 max-[850px]:p-2 max-[850px]:px-4 max-[520px]:px-2 max-[520px]:text-[8px] max-[520px]:text-sm max-[520px]:rounded-xl max-[520px]:mt-2">
             Learn more
           </button>
         </div>
       </div> 
-      <div className="flex justify-between ">
+      <div className="flex justify-between max-[520px]:">
      <div>
-     <img className="h-52 max-[850px]:h-28" src={homeSec2} alt="" />
-      <img className=" h-8 ml-40 max-[850px]:ml-20 max-[850px]:h-6" src={homeSec1} alt="" />
+     <img className="h-48 -mt-32 max-[850px]:h-28 max-[520px]:h-20" src={homeSec2} alt="" />
+      <img className=" h-8 ml-40  max-[850px]:ml-20 max-[850px]:h-6 max-[520px]:h-4" src={homeSec1} alt="" />
      </div>
     
-      <img className="h-96 max-[850px]:h-64" src={homeSec3} alt="" />
+      <img className="h-80 -mt-32  max-[850px]:h-64 max-[520px]:h-36" src={homeSec3} alt="" />
       </div>
     
     </div>

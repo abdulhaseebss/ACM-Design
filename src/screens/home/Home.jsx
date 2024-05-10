@@ -1,12 +1,19 @@
+
 import HomeSec1 from "../../components/home/HomeSec1"
+import HomeSec2 from "../../components/HomeSec2";
+
 
 const Home = () => {
-  return (
-    <div>
-   
-      <HomeSec1/>
-    </div>
-  )
-}
 
-export default Home
+
+  return (
+    <>
+     <HomeSec1/>
+     <HomeSec2/>
+
+      
+    </>
+  );
+};
+
+export default Home;
