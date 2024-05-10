@@ -8,8 +8,8 @@ const Home = () => {
 
   return (
     <>
-     <HomeSec1/>
-     <HomeSec2/>
+     <HomeSec1 head="MULTIMEDIA" para="Let's dive into the life, one of the  most well-known but multimedia company. We'll break it down into three key stops—each one a crucial chapter in the journey." width="w-[70%]" />
+     <HomeSec2 />
 
       
     </>
