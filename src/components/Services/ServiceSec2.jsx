@@ -1,6 +1,6 @@
 
 import servce1 from "../../assets/service-img-1.png"
-const Service2 = () => {
+const ServiceSec2 = () => {
   return (
   <div className="">
       <div className="flex justify-evenly flex-wrap mx-5">
@@ -21,4 +21,4 @@ const Service2 = () => {
   )
 }
 
-export default Service2
+export default ServiceSec2

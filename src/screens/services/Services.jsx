@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeSec1 from '@/components/home/HomeSec1'
-import Service2 from '@/components/Services/Service2'
+import Service2 from '@/components/Services/ServiceSec2'
 
 const Services = () => {
   return (
