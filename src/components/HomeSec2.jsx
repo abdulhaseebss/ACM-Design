@@ -5,13 +5,18 @@ import outline2 from "../assets/outline2.png"
 import boy from "../assets/boy.png"
 import triangle from "../assets/triangle.png"
 import circle from "../assets/circle.png"
+import camera from "../assets/camera.png"
+import icon from "../assets/Icon.png"
 
 const HomeSec2 = () => {
   return (
     <>
         <h2 className="text-white mt-10 text-center text-5xl font-bold mx-5 max-[750px]:text-3xl">Audiovisual Creation Studio</h2>
 
-        <div className='flex justify-center gap-5 items-center flex-wrap mt-16'>
+        
+        {/* Social Media Marketing */}
+
+        <div className='flex justify-center gap-5 items-center flex-wrap mt-16 mx-5'>
           <div className='flex flex-col'>
 
           <img className='w-[400px] mr-28' src={hand} alt="" />
@@ -27,7 +32,11 @@ const HomeSec2 = () => {
           </div>
         </div>
 
-        <div className='flex justify-center gap-5 items-center flex-wrap flex-row-reverse mt-[-25vh]'>
+
+        {/* Videography */}
+
+
+        <div className='flex justify-center gap-5 items-center flex-wrap flex-row-reverse mt-[-25vh] max-[920px]:mt-[0] mx-5'>
           <div className='flex flex-col items-end'>
 
           <img className='w-[400px] ml-28' src={boy} alt="" />
@@ -44,14 +53,25 @@ const HomeSec2 = () => {
         </div>
 
 
-        <div>
-       
+      {/* Photography*/}
 
+      <div className='flex justify-center gap-5 items-center mt-[-28vh] flex-wrap mx-5'>
+          <div className='flex flex-col'>
 
+          <img className='w-[400px] mr-28' src={camera} alt="" />
+          <img className='w-12' src={triangle} alt="" />
+          <img  className='w-[250px] ml-[20vw] mt-20 max-[890px]:mt-0 transition-all' src={outline1} alt="" />
+          </div>
 
-
-
-          
+          <div className='w-[350px]'>
+            <h2 className='text-6xl text-[#f2fffc71] font-bold'>03</h2>
+            <div className='flex justify-between items-end'>
+               <h3 className='text-4xl font-bold text-[#FFFFFF] align-text-bottom mt-5'>Photography</h3>
+              <p className=''> <img src={icon} alt="" /></p>
+            </div>
+            <p className='mt-5 text-[#f2fffcbd]'>Photography is the art, application, and practice of creating images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.</p>
+            <button className='text-[#003C3C] mt-5 bg-[#00FFB2] p-2 px-6 rounded-full font-medium'>Learn More</button>
+          </div>
         </div>
     </>
   )
